@@ -1,0 +1,35 @@
+.root {
+    --font-monospace: 'Courier Prime', monospace;
+    --black: #000;
+    --white: #fff;
+    --white-darker: #F7f5f2;
+    --gray: #aca199;
+    --yellow: #f7be00;
+    --purple: #9578d3;
+    --blue: #0099a8;
+    --wine-red: #971533;
+    --orange: #ff5200;
+    --green: #72d64c;
+    --red: #ee3a45;
+    --blue-dark: #192d4d;
+    --pink: #ff8189;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.6rem;
+    --h4-font-size: 1.6rem;
+    --body-font-size: 1rem;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: 'Courier Prime', 'Courier', monospace;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
