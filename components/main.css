@@ -13,8 +13,8 @@
     --red: #ee3a45;
     --blue-dark: #192d4d;
     --pink: #ff8189;
-    --h1-font-size: 2.5rem;
-    --h2-font-size: 2.5rem;
+    --h1-font-size: 5rem;
+    --h2-font-size: 5rem;
     --h3-font-size: 1.6rem;
     --h4-font-size: 1.6rem;
     --body-font-size: 1rem;
@@ -28,8 +28,53 @@ html {
     box-sizing: inherit;
   }
 
+  h1, h2, h3, h4 {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
   body {
     font-family: 'Courier Prime', 'Courier', monospace;
     line-height: 1.5;
     font-size: 1rem;
+    background-color: var(--white-darker);
+    margin: 0 1rem;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .components img {
+    max-width: initial;
+  }
+
+  .component__img {
+    border: 1px solid black;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+
+  .component__name {
+    margin: 1rem 0;
+  }
+
+  .component__code {
+    border: 1px solid black;
   }
