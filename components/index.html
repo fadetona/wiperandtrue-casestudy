@@ -6,14 +6,15 @@
     <title>Components | Wiper and True</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/fffb2175ef.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Wiper and True Web Components</h1>
+    <h1 id="components-page__title">Wiper and True Web Components</h1>
 
-    <h2>Typography Defaults</h2>
+    <h2 class="components-page__subtitle">Typography</h2>
 
     <article class="component">
     <h3 class="component__name">Body</h3>
@@ -35,42 +36,90 @@
         <h3 class="component__name">Headings</h3>
         <div class="component__img">
             <img 
-                srcset="img/heading--h1.png 2x" 
-                src="img/heading--h1.png" alt="heading 1"
+                srcset="img/h1.png 2x" 
+                src="img/h1.png" alt="heading 1"
             >
             <img 
-                srcset="img/heading--h2.png 2x" 
-                src="img/heading--h2.png" alt="heading 2"
+                srcset="img/h2.png 2x" 
+                src="img/h2.png" alt="heading 2"
             >
             <img 
-                srcset="img/heading--h3.png 2x" 
-                src="img/heading--h3.png" alt="heading 3"
-            >
-            <img 
-                srcset="img/heading--h4.png 2x" 
-                src="img/heading--h4.png" alt="heading 4"
+                srcset="img/h3.png 2x" 
+                src="img/h3.png" alt="heading 3"
             >
         </div>
         <div class="component__code">
-          <h1>Bestsellers</h1>
-          <h2>Beautiful Beer</h2>
-          <h3>Today | Lemondrop Hill</h3>
-          <h4>&#163;11.50 | 4.8% ABV</h4>
+          <h1>All Beer</h1>
+          <h2>Visit Our Venues</h2>
+          <h3>Community First</h3>
         </div>
         </article>
 
+    <h2 class="components-page__subtitle">Atoms</h2>
+    <article class="component">
+        <h3>Icon</h3>
+        <div class="component__img">
+            Img here
+        </div>
+        <div class="component__code">
+            Code here
+        </div>
+    </article>
+    
+    <h2 class="components-page__subtitle">Page Header</h2>
         <article class="component">
-            <h3 class="component__name">Links</h3>
+            <h3 class="component__name">Wordmark</h3>
             <div class="component__img">
-                <img 
-                    srcset="img/heading--h1.png 2x" 
-                    src="img/heading--h1.png" alt="heading 1"
-                >
+                <img src="img/main-nav__logo.png" srcset="img/main-nav__logo.png 2x" alt="wordmark">
             </div>
-            <div class="component__code">
-             Code here
+            <div class="component__code wordmark-container">
+                <p id="wordmark">Wiper and True</p>
             </div>
-            </article>
+        </article>
+
+        <article class="component">
+            <h3 class="component__name">Main Nav</h3>
+            <div class="component__img">
+                <img src="img/main-nav.png" srcset="img/main-nav.png 2x" alt="main nav">
+            </div>
+            <div class="component__code main-nav-container">
+                <ul class="nav main-nav__list">
+                    <li><a href="#">Shop<i class="fa-solid fa-arrow-down main-nav__icon"></i></a></li>
+                    <li><a href="#">Visit<i class="fa-solid fa-arrow-down main-nav__icon"></i></a></li>
+                    <li><a href="#">Events<i class="fa-solid fa-arrow-down main-nav__icon"></i></a></li>
+                    <li><a href="#">Discover<i class="fa-solid fa-arrow-down main-nav__icon"></i></a></li>
+                    <li><a href="#">Trade<i class="fa-solid fa-arrow-down main-nav__icon"></i></a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="component__name">Side Nav--Right</h3>
+            <div class="component__img">
+                <img src="img/side-nav--right.png" srcset="img/side-nav--right.png" alt="right side nav">
+            </div>
+            <div class="component__code side-nav-container">
+                <ul class="nav side-nav__list">
+                    <li><i class="fa-solid fa-magnifying-glass fa-2x side-nav__icon"></i></li>
+                    <li><i class="fa-regular fa-user fa-2x side-nav__icon"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping fa-2x side-nav__icon"></i></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="component__name">Header Banner</h3>
+            <div class="component__img">
+                <img src="img/page-banner--cropped.png" srcset="img/page-banner--cropped.png" alt="cropped page banner">
+            </div>
+            <div class="component__code banner-container">
+                <p class="banner__txt">Free Shipping on UK Mainland Orders Over &#163;50</p>
+            </div>
+        </article>
+    
+
+
+    
 
 
 
