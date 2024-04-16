@@ -162,6 +162,29 @@ html {
     letter-spacing: 0.12rem;
   }
 
+  .icon {
+    margin: 0 auto;
+  }
+
+  .card {
+    text-align: center;
+    background: var(--white);
+    width: 25rem;
+    padding: 5rem 3rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  .grid-container {
+    width: 100rem;
+  }
+
+  .column-grid--four {
+    display: grid;
+    grid-template-columns: 4;
+  }
 
 
   
