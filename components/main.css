@@ -159,7 +159,10 @@ html {
     background: var(--white);
     padding: 1rem 0;
     border: 1px solid var(--black);
+    letter-spacing: 0.12rem;
   }
+
+
 
   
 
