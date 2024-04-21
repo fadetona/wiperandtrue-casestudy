@@ -222,12 +222,31 @@ html {
     padding: 0 0.75rem;
   }
 
-  .footer-banner-container {
+  .footer-banner__container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: smaller;
-    justify-content: space-between;
+    background: var(--white);
   }
 
-  .payment-icons__image {
+  .footer-banner__text {
+    display: flex;
+  }
+
+  #footer-link__img {
+    display: inline-block;
+    width: 5rem;
+    object-position: bottom center;
+  }
+
+  svg {
     display: inline;
   }
+
+  .social-media__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
