@@ -212,6 +212,16 @@ html {
     width: 120rem;
   }
 
+  .social-media {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .social-media li {
+    padding: 0 0.75rem;
+  }
+
   .footer-banner-container {
     display: flex;
     font-size: smaller;
