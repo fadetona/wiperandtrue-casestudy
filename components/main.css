@@ -10,6 +10,7 @@
     --wine-red: #971533;
     --orange: #ff5200;
     --green: #72d64c;
+    --forest-green: #006548;
     --red: #ee3a45;
     --blue-dark: #192d4d;
     --pink: #ff8189;
@@ -260,6 +261,50 @@ html {
     flex-direction: column;
     width: 50%;
     margin: 0 2.5rem 0 0;
+  }
+
+  /* counter section */
+
+  .counter {
+    position: relative;
+  }
+
+  .counter__txt {
+    display: flex;
+  }
+
+  #counter__title {
+    font-size: 1.88rem;
+    margin-bottom: 30px;
+  }
+
+  .counter__txt--character {
+    font-size: 3.13rem;
+    font-weight: 400;
+    background: var(--white);
+    padding: 3rem;
+    margin: 0.5rem;
+  }
+
+  .counter__label {
+    background: var(--forest-green);
+    color: var(--white);
+    width: max-content;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%) rotate(-5deg);
+    
+  }
+
+  .counter__label-txt {
+    font-size: 1.57rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+
+  #below-counter {
+    margin-top: 10rem;
   }
 
   /* footer */
