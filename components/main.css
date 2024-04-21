@@ -130,10 +130,22 @@ html {
   /* buttons */ 
 
   .btn {
+    display: inline-flex;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 0.9375rem 1.25rem;
+    border: 1px solid var(--black);
     letter-spacing: 0.10rem;
+    gap: 10px;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: inherit;
+    
   }
 
   .btn--secondary {
@@ -227,6 +239,30 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* primary info section */
+
+  .info-section {
+    display: flex;
+    padding: 0 1.5rem;
+  }
+
+  .info-section img {
+    width: 50%;
+  }
+
+  .info-section h2 {
+    padding-bottom: 0;
+  }
+
+  .info-section__txt-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 2.5rem 0 0;
+  }
+
+  /* footer */
 
   .social-media {
     list-style-type: none;
