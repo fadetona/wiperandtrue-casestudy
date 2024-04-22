@@ -74,18 +74,40 @@ html {
     max-width: 100%;
   }
 
+ .side-navbar__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column wrap;
+  padding: 0 10rem;
+ }
+
+ .sidebar__title {
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 1rem;
+ }
+
+ .side-navbar__list a:hover {
+  color: var(--yellow);
+ }
+
+ .side-navbar__list a:visited{
+  color: var(--blue-dark);
+ }
+
   #components-page__title {
     text-align: center;
     border-bottom: 5px solid var(--black);
   }
 
   .components-page__subtitle {
-    margin: 0 0 2rem 10rem;
+    margin: 3rem 15rem;
     border-bottom: 1px solid var(--black);
   }
 
   article {
-    margin: 3rem 10rem;
+    margin: 3rem 15rem;
   }
 
   .components img {
