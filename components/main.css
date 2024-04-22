@@ -307,7 +307,68 @@ html {
     margin-top: 10rem;
   }
 
+  /* image and text grid */
+
+  .img-and-txt__grid-img {
+    width:max-content;
+    border: 1px solid var(--black);
+    position: relative;
+  }
+
+  .date__tag {
+    background: var(--white);
+    border: 1px solid var(--black);
+
+  }
+
   /* footer */
+
+  .sub__banner {
+    background: var(--black);
+
+  }
+
+  .sub__banner h3 {
+    color: var(--white);
+  }
+
+  .sub-banner__txt {
+    color: var(--white);
+    display: inline;
+    font-size: small;
+  }
+
+  #sub__link {
+    color: var(--white);
+    display: inline;
+    margin: 0.5rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: small;
+  }
+
+  .footer-grid__title {
+    text-transform: uppercase;
+    
+  }
+
+ .footer-grid__list {
+  list-style-type: none;
+  padding: 0;
+ }
+
+ .footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px 60px;
+  background: var(--white);
+ }
+
+ .grid-col--one {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9375rem;
+ }
 
   .social-media {
     list-style-type: none;
