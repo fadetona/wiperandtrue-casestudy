@@ -1,0 +1,140 @@
+:root {
+    --font-monospace: 'Courier Prime', monospace;
+    --black: #000;
+    --white: #fff;
+    --white-darker: #F7f5f2;
+    --gray: #aca199;
+    --yellow: #f7be00;
+    --purple: #9578d3;
+    --blue: #0099a8;
+    --wine-red: #971533;
+    --orange: #ff5200;
+    --green: #72d64c;
+    --forest-green: #006548;
+    --red: #ee3a45;
+    --blue-dark: #192d4d;
+    --pink: #ff8189;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.6rem;
+    --h4-font-size: 1.6rem;
+    --body-font-size: 1rem;
+}
+
+@font-face {
+  font-family: 'Baskerville Bold';
+  src: url('fonts/BaskervilleBoldBT.ttf');
+  font-weight: bold;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* typography */
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+  }
+
+h1 {
+    font-size: 2.5rem;
+  }
+
+h2 {
+    font-size: 2.5rem
+  }
+
+h3 {
+    font-size: 1.6rem;
+  }
+
+h4 {
+    font-size: 1.6rem;
+  }
+
+body {
+    font-family: var(--font-monospace);
+    line-height: 1.5;
+    font-size: 1rem;
+    background-color: var(--white-darker);
+    border-right: 1px solid var(--black);
+    margin: 0;
+    padding: 0;
+  }
+
+p {
+    line-height: 1.5;
+  }
+
+img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+/* header */
+
+.header {
+    margin: 0;
+}
+
+.header__container--top:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.heading__banner {
+    width: 100%;
+    color: var(--black);
+    text-align: center;
+    font-weight: bold;
+}
+
+#wordmark {
+    width: 15rem;
+    text-align: center;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 1px solid var(--black);
+    border-left: 1px solid var(--black);
+}
+
+.nav__list--right {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.nav__list a {
+    color: var(--black);
+}
+
+.main-nav__icon {
+    padding: 0.75rem;
+  }
+
+.page__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 20rem auto 15rem;
+    border: 1px solid var(--black);
+}
