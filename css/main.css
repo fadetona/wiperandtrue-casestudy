@@ -81,6 +81,38 @@ img {
     text-transform: uppercase;
   }
 
+  /* buttons */ 
+
+  .btn {
+    display: inline-flex;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.9375rem 1.25rem;
+    border: 1px solid var(--black);
+    letter-spacing: 0.10rem;
+    gap: 10px;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: inherit;
+    
+  }
+
+  .btn--secondary {
+    background-color: var(--white);
+    font-weight: 700;
+  }
+
+  .btn--primary {
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 700;
+  }
+
 /* header */
 
 .header {
@@ -197,3 +229,25 @@ svg {
   line-height: 1.22em;
 }
 
+/* picture and info section */
+
+.pic-info-section__container {
+  display: flex;
+  flex: row nowrap;
+  border-bottom: 1px solid var(--black);
+}
+
+.pic-info-section__img {
+  width: 50%;
+  border-right: 1px solid var(--black);
+}
+
+.pic-info-section__txt {
+  padding: 0 5rem;
+}
+
+/* image grid -- venues */
+
+.section-banner__title {
+  text-align: center;
+}
