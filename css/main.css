@@ -85,7 +85,6 @@ img {
 
 .header {
     margin: 0;
-    position: relative;
 }
 
 .header__container--top:hover {
@@ -168,17 +167,33 @@ img {
   color: var(--white);
 }
 
-#hero__video {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  justify-self: center;
+/* hero section */
+
+
+/* info grid */
+
+.info-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
 }
 
-.video-wrapper {
-  position: relative;
-  overflow: hidden;
-  height: 50rem;
+svg {
+  x: 0px;
+  y: 0px;
+  width: 64px;
+  height: 64px;
 }
+
+.card {
+  border: 1px solid black;
+  text-align: center;
+  height: 400px;
+  padding: 2rem 2.5rem;
+}
+
+.card h3 {
+  line-height: 1.22em;
+}
+
