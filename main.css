@@ -97,11 +97,14 @@ img {
     color: var(--black);
     text-align: center;
     font-weight: bold;
+    padding: 0.5rem 0;
+    margin: 0;
 }
 
 #wordmark {
     width: 15rem;
     text-align: center;
+    padding: 1rem;
 }
 
 .nav__list {
@@ -110,6 +113,7 @@ img {
     justify-content: space-evenly;
     border-right: 1px solid var(--black);
     border-left: 1px solid var(--black);
+    align-self: center;
 }
 
 .nav__list--right {
@@ -117,6 +121,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
+    align-self: center;
 }
 
 .nav__list a {
@@ -135,6 +140,6 @@ img {
 
 .nav {
     display: grid;
-    grid-template-columns: 20rem auto 15rem;
+    grid-template-columns: 15rem auto 15rem;
     border: 1px solid var(--black);
 }
