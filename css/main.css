@@ -85,6 +85,7 @@ img {
 
 .header {
     margin: 0;
+    position: relative;
 }
 
 .header__container--top:hover {
@@ -149,4 +150,20 @@ img {
 
 .side-nav__icon {
   color: white;
+}
+
+#hero__video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  justify-self: center;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 50rem;
 }
