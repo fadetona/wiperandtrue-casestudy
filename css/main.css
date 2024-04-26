@@ -93,6 +93,22 @@ img {
     color: var(--black);
 }
 
+.header__container--top:hover .heading__banner {
+  color: var(--black);
+}
+
+.header__container--top:hover #wordmark {
+  color: var(--black);
+}
+
+.header__container--top:hover .nav__list a {
+  color: var(--black);
+}
+
+.header__container--top:hover .side-nav__icon {
+  color: var(--black);
+}
+
 .heading__banner {
     width: 100%;
     color: var(--white);
@@ -108,7 +124,7 @@ img {
     text-align: center;
     align-self: center;
     padding: 0 1.5rem;
-    color: white;
+    color: var(--white);
 }
 
 .nav__list {
@@ -149,7 +165,7 @@ img {
 }
 
 .side-nav__icon {
-  color: white;
+  color: var(--white);
 }
 
 #hero__video {
