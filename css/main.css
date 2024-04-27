@@ -65,6 +65,7 @@ body {
     border-right: 1px solid var(--black);
     margin: 0;
     padding: 0;
+    max-width: 100%;
   }
 
 p {
@@ -190,7 +191,7 @@ img {
 
 .nav {
     display: grid;
-    grid-template-columns: 15rem auto 15rem;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
     border: 1px solid var(--black);
 }
@@ -250,4 +251,21 @@ svg {
 
 .section-banner__title {
   text-align: center;
+}
+
+.img-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.grid__card {
+  border: 1px solid var(--black);
+}
+
+.grid-card__img {
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
 }
