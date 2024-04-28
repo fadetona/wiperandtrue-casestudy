@@ -402,6 +402,7 @@ svg {
 
 .info-flex__container--reviews {
   position: absolute;
+  max-width: 100%;
 }
 
 .review-section {
@@ -409,6 +410,7 @@ svg {
   margin: 15rem 20rem;
   display: flex;
   gap: 1.5rem;
+  max-width: 100%;
 }
 
 .review__card {
@@ -460,4 +462,52 @@ svg {
   font-size: 0.7rem;
   font-weight: bold;
   padding: 1rem;
+}
+
+/* grid journal section */
+
+.section-banner__title--journal {
+  border-bottom: 1px solid var(--black);
+  padding-bottom: 3rem;
+  max-width: 100%;
+}
+
+.grid-journal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: 100%;
+}
+
+.grid-journal__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--black);
+}
+
+.grid-journal__bodycopy .btn {
+  margin-left: 2rem;
+}
+
+.grid-journal__title {
+  padding: 0 2rem;
+}
+
+.grid-journal__img {
+  width: 41.25rem;
+  height: 27.375rem;
+  padding: 2rem;
+}
+
+.grid-journal__txt {
+  padding: 0 2rem;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--black);
+  width: 5rem;
+  text-align: center;
+  margin-left: 2rem;
 }
