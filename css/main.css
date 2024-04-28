@@ -540,3 +540,98 @@ svg {
   text-transform: lowercase;
   font-size: 1rem;
 }
+
+/* footer */ 
+footer {
+  max-width: 100%;
+  width: 100%;
+}
+
+#wordmark--secondary {
+  width: 10rem;
+  padding: 0 1rem;
+}
+
+#livingwage {
+  padding: 1rem 0;
+}
+
+.social-media {
+  list-style-type: none;
+  display: flex;
+}
+
+.social-media li {
+  padding: 0 1rem;
+}
+
+.social-media a {
+  color: var(--black);
+}
+
+.footer-grid__title {
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--black);
+  
+}
+
+.footer-grid__list {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-grid {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px 60px;
+max-width: 100%;
+padding: 2.5rem 1rem;
+}
+
+.footer-grid__link {
+  color: var(--black);
+}
+
+.grid-col--one {
+display: flex;
+flex-direction: column;
+gap: 2.9375rem;
+}
+
+.social-media li {
+  padding: 0 0.75rem;
+}
+
+.footer-banner__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  border-top: 1px solid var(--black);
+  padding: 2rem 0;
+}
+
+.footer-banner__text {
+  display: flex;
+  padding: 1.5rem 1rem;
+}
+
+#footer-link__img {
+  display: inline-block;
+  width: 6rem;
+  margin: -1rem;
+}
+
+.social-media__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.social-media__list li {
+  padding: 0 0.5rem;
+}
+
+.social-media__list svg {
+  width: 2.5rem;
+}
