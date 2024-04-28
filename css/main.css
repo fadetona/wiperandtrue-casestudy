@@ -407,6 +407,8 @@ svg {
 .review-section {
   position: relative;
   margin: 15rem 20rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .review__card {
@@ -449,6 +451,13 @@ svg {
   margin-left: 0.5rem;
 }
 
-.review__txt p {
-  font-size: 0.5rem;
+.review__txt {
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.review__txt--location {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 1rem;
 }
