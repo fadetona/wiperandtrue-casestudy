@@ -316,7 +316,7 @@ svg {
   background-image: url("../img/counter-img.webp");
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 50rem;
   padding: 0;
   margin: 0;
   background-position: center;
@@ -328,6 +328,7 @@ svg {
 #counter__title {
   font-size: 1.88rem;
   text-align: center;
+  padding: 3rem 0;
 }
 
 .counter__txt {
@@ -364,5 +365,13 @@ svg {
   text-align: center;
   padding: 3rem 20rem;
 
+}
+
+/* press logo section */
+
+.press-logo__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
 }
 
