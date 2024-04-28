@@ -375,3 +375,7 @@ svg {
   padding: 5rem;
 }
 
+.press__logo {
+  width: 10rem;
+  height: auto;
+}
