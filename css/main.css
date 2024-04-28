@@ -394,6 +394,10 @@ svg {
   border-bottom: 1px solid var(--black);
 }
 
+.info-flex__container--sub img {
+  border-left: 1px solid var(--black);
+}
+
 /* reviews section */
 
 .reviews__title {
