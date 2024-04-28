@@ -162,17 +162,25 @@ img {
 .nav__list {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-self: center;
+    border-left: 1px solid black;
 }
 
+.nav__list li {
+  margin: 0 1.5rem;
+}
 
 .nav__list--right {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 1rem;
     align-self: center;
+    border-left: 1px solid black;
+}
+
+.nav__list--right li {
+  padding: 0 1rem;
 }
 
 .nav__list a {
@@ -190,9 +198,9 @@ img {
 }
 
 .nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px;
+    display: flex;
+    flex: column nowrap;
+    justify-content:space-between;
     border: 1px solid var(--black);
 }
 
@@ -207,6 +215,7 @@ img {
 
 .info-grid {
   display: grid;
+  max-width: 100%;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   background-color: white;
@@ -233,6 +242,7 @@ svg {
 /* picture and info section */
 
 .pic-info-section__container {
+  max-width: 100%;
   display: flex;
   flex: row nowrap;
   border-bottom: 1px solid var(--black);
@@ -256,16 +266,100 @@ svg {
 .img-grid {
   display: grid;
   width: 100%;
+  max-width: 100%;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
 
 .grid__card {
   border: 1px solid var(--black);
+  height: 35rem;
+  
+}
+
+.grid__card h3 {
+  text-align: left;
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+.grid__card a {
+  float: left;
+  margin-left: 1.25rem;
 }
 
 .grid-card__img {
   display: block;
   text-align: center;
+  width: 35rem;
+  height: auto;
   padding: 1.5rem;
+}
+
+.btn--tap {
+  margin: 2.5rem;
+}
+
+.btn--barrel {
+  margin: 0.25rem;
+}
+
+.btn--more {
+  margin: 2.5rem;
+}
+
+/* counter section */
+
+.counter {
+  position: absolute;
+  background-image: url("../img/counter-img.webp");
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#counter__title {
+  font-size: 1.88rem;
+  margin-bottom: 30px;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.counter__txt {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+} 
+
+.counter__txt--character {
+  font-size: 3.13rem;
+  font-weight: 400;
+  background: var(--white);
+  padding: 3rem;
+  margin: 0.5rem;
+}
+
+.counter__label {
+  background-color: var(--forest-green);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.57rem;
+  padding: 0.25rem;
+  width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  transform: translate(-50%) rotate(-5deg);
+  left: 30%;
+}
+
+.counter__txt--body {
+  position: relative;
+  text align: center;
+  margin-top: 5rem;
 }
